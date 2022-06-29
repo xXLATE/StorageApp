@@ -32,3 +32,5 @@ C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\User0
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\refint\User06.dll
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\User06.pdb
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\ref\User06.dll
+C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
+C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\Pages\AddPasswordPage.xaml.g.cs
