@@ -3,7 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="User06.Pages.AuthPage"
              NavigationPage.HasNavigationBar="False">
-    
+
     <ContentPage.Content>
         <StackLayout>
             <Label x:Name="WelcomeText"
@@ -11,32 +11,138 @@
                    Text="ПРИВЕТ, USERNAME"
                    HorizontalOptions="CenterAndExpand"
                    FontSize="30"
-                   TextColor="Black"/>
-            <Frame BorderColor="Black" Margin="30,10, 30, 100">
-                <Entry x:Name="EField" Margin="-15,-15"/>
+                   TextColor="Black" />
+            <Frame BorderColor="Black"
+                   Margin="30,10, 30, 100">
+                <Entry x:Name="EField"
+                       Margin="-15,-15" />
             </Frame>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <Button x:Name="Btn1" Clicked="Btn1_Clicked" Text="1" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
-                <Button x:Name="Btn2" Clicked="Btn2_Clicked"  Text="2" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
-                <Button x:Name="Btn3" Clicked="Btn3_Clicked" Text="3" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Button x:Name="Btn1"
+                        Clicked="Btn1_Clicked"
+                        Text="1"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
+                <Button x:Name="Btn2"
+                        Clicked="Btn2_Clicked"
+                        Text="2"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
+                <Button x:Name="Btn3"
+                        Clicked="Btn3_Clicked"
+                        Text="3"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <Button x:Name="Btn4" Clicked="Btn4_Clicked" Text="4" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
-                <Button x:Name="Btn5" Clicked="Btn5_Clicked" Text="5" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
-                <Button x:Name="Btn6" Clicked="Btn6_Clicked" Text="6" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Button x:Name="Btn4"
+                        Clicked="Btn4_Clicked"
+                        Text="4"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
+                <Button x:Name="Btn5"
+                        Clicked="Btn5_Clicked"
+                        Text="5"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
+                <Button x:Name="Btn6"
+                        Clicked="Btn6_Clicked"
+                        Text="6"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                <Button x:Name="Btn7" Clicked="Btn7_Clicked" Text="7" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
-                <Button x:Name="Btn8" Clicked="Btn8_Clicked" Text="8" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
-                <Button x:Name="Btn9" Clicked="Btn9_Clicked" Text="9" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center">
+                <Button x:Name="Btn7"
+                        Clicked="Btn7_Clicked"
+                        Text="7"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
+                <Button x:Name="Btn8"
+                        Clicked="Btn8_Clicked"
+                        Text="8"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
+                <Button x:Name="Btn9"
+                        Clicked="Btn9_Clicked"
+                        Text="9"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
             </StackLayout>
 
-            <StackLayout Orientation="Horizontal" HorizontalOptions="Center" Margin="100, 0, 0, 0">
-                <Button x:Name="Btn0" Clicked="Btn0_Clicked" Text="0" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
-                <Button x:Name="BtnOkay" Clicked="BtnOkay_Clicked" Text="&#10003;" BackgroundColor="Transparent" BorderColor="Black" BorderWidth="1" CornerRadius="100" HeightRequest="100" WidthRequest="100" FontSize="30"/>
+            <StackLayout Orientation="Horizontal"
+                         HorizontalOptions="Center"
+                         Margin="100, 0, 0, 0">
+                <Button x:Name="Btn0"
+                        Clicked="Btn0_Clicked"
+                        Text="0"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
+                <Button x:Name="BtnOkay"
+                        Clicked="BtnOkay_Clicked"
+                        Text="&#10003;"
+                        BackgroundColor="Transparent"
+                        BorderColor="Black"
+                        BorderWidth="1"
+                        CornerRadius="100"
+                        HeightRequest="100"
+                        WidthRequest="100"
+                        FontSize="30" />
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

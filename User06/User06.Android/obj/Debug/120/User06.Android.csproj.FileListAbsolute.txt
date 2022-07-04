@@ -1276,3 +1276,7 @@ C:\Users\bruno\Downloads\User06.git\User06\User06.Android\obj\Debug\120\stamp\_C
 C:\Users\bruno\Downloads\User06.git\User06\User06.Android\obj\Debug\120\stamp\_GenerateJavaStubs.stamp
 C:\Users\bruno\Downloads\User06.git\User06\User06.Android\obj\Debug\120\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\bruno\Downloads\User06.git\User06\User06.Android\obj\Debug\120\stamp\_ResolveLibraryProjectImports.stamp
+C:\Users\bruno\Downloads\User06.git\User06\User06.Android\obj\Debug\120\res\drawable\eye.png
+C:\Users\bruno\Downloads\User06.git\User06\User06.Android\obj\Debug\120\res\drawable\splash_screen.xml
+C:\Users\bruno\Downloads\User06.git\User06\User06.Android\obj\Debug\120\android\src\crc6425fbeae88b4e0329\SplashActivity.java
+C:\Users\bruno\Downloads\User06.git\User06\User06.Android\obj\Debug\120\res\drawable\filter.png

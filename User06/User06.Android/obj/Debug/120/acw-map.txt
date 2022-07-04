@@ -1,6 +1,9 @@
 User06.Droid.MainActivity, User06.Android;crc6425fbeae88b4e0329.MainActivity
 User06.Droid.MainActivity;crc6425fbeae88b4e0329.MainActivity
 user06.droid.MainActivity;crc6425fbeae88b4e0329.MainActivity
+User06.Droid.SplashActivity, User06.Android;crc6425fbeae88b4e0329.SplashActivity
+User06.Droid.SplashActivity;crc6425fbeae88b4e0329.SplashActivity
+user06.droid.SplashActivity;crc6425fbeae88b4e0329.SplashActivity
 AndroidX.Activity.IOnBackPressedDispatcherOwner, Xamarin.AndroidX.Activity;androidx.activity.OnBackPressedDispatcherOwner
 AndroidX.Activity.IOnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner
 androidx.activity.OnBackPressedDispatcherOwner;androidx.activity.OnBackPressedDispatcherOwner

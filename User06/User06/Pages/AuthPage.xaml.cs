@@ -13,6 +13,7 @@ namespace User06.Pages
     public partial class AuthPage : ContentPage
     {
         private User _currentUser;
+        private string _inputPassword;
 
         public AuthPage(User currentUser)
         {
@@ -24,62 +25,73 @@ namespace User06.Pages
 
         private void Btn1_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "1";
+            EField.Text += "*";
+            _inputPassword += "1";
         }
 
         private void Btn2_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "2";
+            EField.Text += "*";
+            _inputPassword += "2";
         }
 
         private void Btn3_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "3";
+            EField.Text += "*";
+            _inputPassword += "3";
         }
 
         private void Btn4_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "4";
+            EField.Text += "*";
+            _inputPassword += "4";
         }
 
         private void Btn5_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "5";
+            EField.Text += "*";
+            _inputPassword += "5";
         }
 
         private void Btn6_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "6";
+            EField.Text += "*";
+            _inputPassword += "6";
         }
 
         private void Btn7_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "7";
+            EField.Text += "*";
+            _inputPassword += "7";
         }
 
         private void Btn8_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "8";
+            EField.Text += "*";
+            _inputPassword += "8";
         }
 
         private void Btn9_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "9";
+            EField.Text += "*";
+            _inputPassword += "9";
         }
 
         private void Btn0_Clicked(object sender, EventArgs e)
         {
-            EField.Text += "0";
+            EField.Text += "*";
+            _inputPassword += "0";
         }
 
         private async void BtnOkay_Clicked(object sender, EventArgs e)
         {
-            if (EField.Text == _currentUser.Password.ToString())
+            if (_inputPassword == _currentUser.Password.ToString())
                 await Navigation.PushAsync(new MainPage(_currentUser));
             else
                 await DisplayAlert("Внимание!", "Неверный пароль!", "OK");
 
             EField.Text = "";
+            _inputPassword = "";
         }
     }
 }

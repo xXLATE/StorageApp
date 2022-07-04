@@ -13,5 +13,6 @@ namespace User06.DataBase
 
         [Unique]
         public string Name { get; set; }
+        public int User_Id { get; set; }
     }
 }

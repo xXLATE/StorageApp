@@ -23,7 +23,6 @@ C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\User0
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\App.xaml.g.cs
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\Pages\AuthPage.xaml.g.cs
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\Pages\RegistrationPage.xaml.g.cs
-C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\Pages\SplashScreen.xaml.g.cs
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\User06.AssemblyInfoInputs.cache
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\User06.AssemblyInfo.cs
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\User06.csproj.CoreCompileInputs.cache
@@ -34,3 +33,4 @@ C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\User0
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\ref\User06.dll
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\Pages\MainPage.xaml.g.cs
 C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\Pages\AddPasswordPage.xaml.g.cs
+C:\Users\bruno\Downloads\User06.git\User06\User06\obj\Debug\netstandard2.0\Pages\AddTypePage.xaml.g.cs

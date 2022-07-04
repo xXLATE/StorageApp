@@ -2,30 +2,68 @@
 <ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="User06.Pages.RegistrationPage">
-    
+
     <NavigationPage.TitleView>
         <StackLayout Orientation="Horizontal">
-            <Label
-                HorizontalOptions="CenterAndExpand"
-                Text="Регистрация"
-                TextColor="White"
-                VerticalOptions="CenterAndExpand" />
+            <Label FontSize="20"
+                   HorizontalOptions="CenterAndExpand"
+                   Text="Регистрация"
+                   TextColor="White"
+                   VerticalOptions="CenterAndExpand" />
         </StackLayout>
     </NavigationPage.TitleView>
-    
+
     <ContentPage.Content>
         <StackLayout VerticalOptions="Start">
-            <Frame BackgroundColor="LightGray" Margin="30,10">
-                <Entry x:Name="NameEntry" Placeholder="Имя" Margin="-15,-15"/>
+            <Frame BackgroundColor="LightGray"
+                   Margin="30,10">
+                <Entry x:Name="NameEntry"
+                       Placeholder="Имя"
+                       Margin="-15,-15" />
             </Frame>
-            <Frame BackgroundColor="LightGray" Margin="30,10">
-                <Entry x:Name="PasswordEntry1" Placeholder="Пароль" IsPassword="True" Margin="-15,-15"/>
-            </Frame>
-            <Frame BackgroundColor="LightGray" Margin="30,10">
-                <Entry x:Name="PasswordEntry2" Placeholder="Пароль" IsPassword="True" Margin="-15,-15"/>
-            </Frame>
-            <StackLayout Spacing="40" VerticalOptions="End">
-                <Button x:Name="RegistrationButton" Clicked="RegistrationButton_Clicked" Text="Регистрация"  Margin="100, 400, 100, 0" BackgroundColor="Black" CornerRadius="50" TextColor="White"></Button>
+            <StackLayout Orientation="Horizontal"
+                         Margin="30,10">
+                <Frame BackgroundColor="LightGray">
+                    <Entry x:Name="PasswordEntry1"
+                           Placeholder="Пароль"
+                           IsPassword="True"
+                           Margin="-15,-15"
+                           WidthRequest="255" />
+                </Frame>
+                <ImageButton x:Name="Eye1"
+                             Clicked="Eye1_Clicked"
+                             Source="eye.png"
+                             HeightRequest="55"
+                             WidthRequest="60"
+                             BackgroundColor="Black"
+                             CornerRadius="100"></ImageButton>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal"
+                         Margin="30,10">
+                <Frame BackgroundColor="LightGray">
+                    <Entry x:Name="PasswordEntry2"
+                           Placeholder="Пароль"
+                           IsPassword="True"
+                           Margin="-15,-15"
+                           WidthRequest="255" />
+                </Frame>
+                <ImageButton x:Name="Eye2"
+                             Clicked="Eye2_Clicked"
+                             Source="eye.png"
+                             HeightRequest="55"
+                             WidthRequest="60"
+                             BackgroundColor="Black"
+                             CornerRadius="100"></ImageButton>
+            </StackLayout>
+            <StackLayout Spacing="40"
+                         VerticalOptions="End">
+                <Button x:Name="RegistrationButton"
+                        Clicked="RegistrationButton_Clicked"
+                        Text="Регистрация"
+                        Margin="100, 400, 100, 0"
+                        BackgroundColor="Black"
+                        CornerRadius="50"
+                        TextColor="White"></Button>
             </StackLayout>
         </StackLayout>
     </ContentPage.Content>

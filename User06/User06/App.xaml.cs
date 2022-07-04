@@ -1,5 +1,6 @@
 ﻿using System;
 using System.IO;
+using System.Linq;
 using User06.DataBase;
 using User06.Pages;
 using Xamarin.Forms;
@@ -29,10 +30,22 @@ namespace User06
         {
             InitializeComponent();
 
-            MainPage = new NavigationPage(new SplashScreen())
+            var users = Db.GetUsers();
+            try
             {
-                BarBackgroundColor = Color.Black
-            };
+                var currentUser = users.First();
+                MainPage = new NavigationPage(new AuthPage(currentUser))
+                {
+                    BarBackgroundColor = Color.Black
+                };
+            }
+            catch
+            {
+                MainPage = new NavigationPage(new RegistrationPage())
+                {
+                    BarBackgroundColor = Color.Black
+                };
+            }
         }
 
         protected override void OnStart()

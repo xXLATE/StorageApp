@@ -11,11 +11,10 @@ namespace User06.DataBase
         [PrimaryKey, AutoIncrement, Column("_id")]
         public int Id { get; set; }
 
-        [Unique]
-        public int User_Id { get; set; }
-        public string TypeName { get; set; }
         public string Login { get; set; }
         public string Password { get; set; }
         public string URL { get; set; }
+        public int User_Id { get; set; }
+        public int Type_Id { get; set; }
     }
 }

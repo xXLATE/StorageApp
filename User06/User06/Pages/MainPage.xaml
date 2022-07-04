@@ -3,27 +3,65 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="User06.Pages.MainPage">
 
-    <ContentPage.ToolbarItems>
-        <ToolbarItem Text="&#10133;" Order="Primary" Clicked="NewProject_Clicked"/>
-    </ContentPage.ToolbarItems>
+    <!--<ContentPage.ToolbarItems>
+        <ToolbarItem Text="&#10133;" Order="Primary" Clicked="NewProject_Clicked" />
+    </ContentPage.ToolbarItems>-->
+
+    <NavigationPage.TitleView>
+        <StackLayout Orientation="Horizontal"
+                     Margin="0,0,15,0">
+            <Button Text="&#9776;"
+                    WidthRequest="50"
+                    TextColor="White"
+                    BackgroundColor="Transparent"
+                    HorizontalOptions="Start" />
+            <Label Text="Пароли"
+                   FontSize="20"
+                   TextColor="White"
+                   VerticalOptions="CenterAndExpand"
+                   HorizontalOptions="CenterAndExpand" />
+            <Button Text="&#10133;"
+                    WidthRequest="50"
+                    TextColor="White"
+                    HorizontalOptions="End"
+                    BackgroundColor="Transparent"
+                    Clicked="NewProject_Clicked" />
+        </StackLayout>
+    </NavigationPage.TitleView>
 
     <ContentPage.Content>
-        <ListView
-            x:Name="ProjectsLV"
-            ItemSelected="ProjectsLV_ItemSelected"
-            ItemsSource="{Binding}">
-            <ListView.ItemTemplate>
-                <DataTemplate>
-                    <ViewCell>
-                        <ViewCell.View>
-                            <StackLayout>
-                                <Label Padding="10" Text="{Binding ULR}" TextColor="Black" FontSize="Medium" />
-                                <Label Padding="10" Text="{Binding TypeName}" TextColor="Black" FontSize="Medium" />
-                            </StackLayout>
-                        </ViewCell.View>
-                    </ViewCell>
-                </DataTemplate>
-            </ListView.ItemTemplate>
-        </ListView>
+        <StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="filter.png"
+                       HeightRequest="30" />
+                <Picker x:Name="FilterPicker"
+                        HorizontalOptions="FillAndExpand" 
+                        SelectedIndexChanged="FilterPicker_SelectedIndexChanged"/>
+            </StackLayout>
+            <ListView x:Name="ProjectsLV"
+                      ItemTapped="ProjectsLV_ItemTapped"
+                      ItemsSource="{Binding}"
+                      RowHeight="80">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell>
+                            <Frame BorderColor="Black"
+                                   Padding="10"
+                                   Margin="2">
+                                <StackLayout>
+                                    <Label Text="{Binding URL}"
+                                           TextColor="Black"
+                                           FontSize="Medium"
+                                           TextDecorations="Underline" />
+                                    <Label Text="{Binding TypeName}"
+                                           TextColor="Black"
+                                           FontSize="Medium" />
+                                </StackLayout>
+                            </Frame>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackLayout>
     </ContentPage.Content>
 </ContentPage>
